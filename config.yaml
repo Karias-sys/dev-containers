@@ -1,0 +1,12 @@
+default_quality: 720p
+default_format: mp4
+output_directory: ./downloads
+max_concurrent_downloads: 3
+retry_attempts: 3
+timeout: 30
+extract_audio: false
+audio_format: mp3
+download_subtitles: false
+subtitle_languages: [en]
+filename_template: "%(title)s.%(ext)s"
+rate_limit: null
